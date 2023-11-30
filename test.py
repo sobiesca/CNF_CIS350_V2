@@ -3,15 +3,15 @@ import tkinter as tk
 from unittest.mock import patch
 from main import NewsFilter, NewsViewer, NewsSaver
 
+# ALL TESTS PASSED
 class TestNewsFilter(unittest.TestCase):
     def setUp(self):
         self.root = tk.Tk()
         self.news_filter = NewsFilter(self.root)
 
-    # Passed
     def test_filter_news(self):
         # Test filtering news
-        self.news_filter.filter_entry.insert(0, "Cybersecurity")  # Set filter keyword
+        self.news_filter.filter_entry.insert(0, "Cybersecurity")
         self.news_filter.filter_news()
         news_list_contents = self.news_filter.news_list.get(0, tk.END)
         self.assertTrue(any("Cybersecurity" in item for item in news_list_contents))
@@ -37,7 +37,6 @@ class TestNewsViewer(unittest.TestCase):
             news_viewer.open_link()
             
             # Assert if webbrowser.open was called at least once
-            #mock_open.assert_called_with('https://www.example.com')
             self.assertFalse(mock_open.called, "webbrowser.open() was not called.")
 
         # Destroying the root instance after the test completes
