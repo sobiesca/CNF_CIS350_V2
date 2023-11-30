@@ -50,7 +50,7 @@ class NewsFilter:
 
                 # Filters information by keywords in the title of RSS feed entry
                 # Adds information we wanted from the RSS feed and displays it in the news_list
-                if keywords.lower() in title.lower():
+                if keywords.lower() in title.lower() or keywords.lower() in pub_date.lower():
                     self.news_list.insert(tk.END, f"Title: {title}")
                     self.news_list.insert(tk.END, f"Published: {pub_date}")
                     self.news_list.insert(tk.END, f"Link: {link}")
