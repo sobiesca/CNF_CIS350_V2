@@ -22,7 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser
           pip install tk
-          pip install unittest
 
       - name: Run Python script
         run: python widget_test.py
