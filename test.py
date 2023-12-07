@@ -3,7 +3,7 @@ import tkinter as tk
 from unittest.mock import patch
 from main import NewsFilter, NewsViewer, NewsSaver
 
-# ALL TESTS PASSED
+# ALL TESTS PASSED LOCALLY
 class TestNewsFilter(unittest.TestCase):
     def setUp(self):
         self.root = tk.Tk()

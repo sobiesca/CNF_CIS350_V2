@@ -3,7 +3,7 @@ import tkinter as tk
 from unittest.mock import patch
 from main import NewsFilter, NewsViewer, NewsSaver
 
-# ALL TESTS PASSED
+# ALL TESTS PASSED LOCALLY
 class TestNewsAppIntegration(unittest.TestCase):
     def setUp(self):
         self.root = tk.Tk()
@@ -55,7 +55,7 @@ class TestNewsAppIntegration(unittest.TestCase):
         self.assertFalse(mock_open.called, "webbrowser.open() was not called.")
 
 
-    # Test saving data                                PASSED **Ask if this might cause problems w/repo due to save files**
+    # Test saving data
     @patch('tkinter.filedialog.asksaveasfilename', return_value='test_file.txt')
     def test_saving_data(self, mock_file_dialogue):
         news_filter = NewsFilter(self.root)
