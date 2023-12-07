@@ -24,4 +24,7 @@ jobs:
           pip install tk
 
       - name: Run Python script
-        run: python widget_test.py
+        run:
+          export DISPLAY=:99
+          Xvfb :99 &
+          python widget_test.py
