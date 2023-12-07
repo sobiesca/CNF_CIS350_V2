@@ -40,20 +40,20 @@ Our Cybersecurity News Filtering App is going to be able to allow users to make 
 ## 4 User Guide/Implementation
 
 ## 4.1 Starting the News Filter
-Once the user has installed the codebase with all dependencies, the user can run the application by either pressing the start button in VSCode or running the command " " in the terminal. Then the user will see the blank filter page ready to search for all articles or filtered articles.
+Once the user has installed the codebase with all dependencies, the user can run the application by pressing the start button in VSCode. Then the user will see the blank filter page ready to search for all articles or filtered articles.
 
-### Front Page UI
+### Application Home Screen
 
 ![Front Page UI](https://github.com/sobiesca/CNF_CIS350_V2/blob/main/Pictures/Home_Screen_V3.png)
-<Figure 1: News Filter Application Home Screen>
+
 
 ### Search Page With No Filter UI
 
-![Search Page UI](https://github.com/sobiesca/CNF_CIS350/blob/main/Pictures/Article_Feed_V2.PNG)
+![Search Page UI](https://github.com/sobiesca/CNF_CIS350_V2/blob/main/Pictures/Article_Feed_V3.PNG)
 
 ### Search Page With Filter UI
 
-![Search Page UI](https://github.com/sobiesca/CNF_CIS350/blob/main/Pictures/Article_Feed_Filter_V2.PNG)
+![Search Page UI](https://github.com/sobiesca/CNF_CIS350_V2/blob/main/Pictures/Article_Feed_Filter_V3.png)
 
 
 ## 5 Future Scope
@@ -61,10 +61,10 @@ Once the user has installed the codebase with all dependencies, the user can run
 There are a multitude of paths that development of this app can take. Some of the big developments that could be implemented in the future are automatic updates through a script, improved dashboard that will display article headers with a short excerpt from the new article and the ability to store preferences in a data base that is tied to a user account.
 
 ## 6 Conclusion
+
 Overall this application has a lot of future potential as there is nothing similar to its concept on the market currently. It could be turned into a powerful information tool and even a data analytic tool to monitor cyber security trends if future development is pursued. Even currently it is an interesting tool with its ability to filter for key words from a pre-selected list of new sites.
 
 ## 7 Risk Analysis & Retrospective
-
-
+Some of the challenges we faced while taking on this project were familiarizing ourselves with new python packages, git bash and working around eachothers schedules. We were very successful overcoming all of these challenges from researching and reading package documentation to cordinating meeting times through discord.
 
 ## 8 Walkthrough
