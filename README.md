@@ -40,7 +40,7 @@ Our Cybersecurity News Filtering App is going to be able to allow users to make 
 ## 4 User Guide/Implementation
 
 ## 4.1 Starting the News Filter
-Once the user has installed the codebase with all dependencies, the user can run the application by pressing the start button in VSCode. Then the user will see the blank filter page ready to search for all articles or filtered articles.
+Once the user has installed the codebase with all dependencies, the user can run the application by pressing the start button in VSCode or running the "python main.py" command in the terminal. Then the user will see the blank filter page ready to search for all articles or filtered articles.
 
 ### Application Home Screen
 
@@ -68,3 +68,4 @@ Overall this application has a lot of future potential as there is nothing simil
 Some of the challenges we faced while taking on this project were familiarizing ourselves with new python packages, git bash and working around eachothers schedules. We were very successful overcoming all of these challenges from researching and reading package documentation to cordinating meeting times through discord.
 
 ## 8 Walkthrough
+https://youtu.be/1fSQwmFRiL8
