@@ -3,7 +3,6 @@ import tkinter as tk
 from unittest.mock import patch
 from main import NewsFilter, NewsViewer, NewsSaver
 
-# ALL TESTS PASSED LOCALLY
 class TestNewsAppIntegration(unittest.TestCase):
     def setUp(self):
         self.root = tk.Tk()
@@ -38,7 +37,6 @@ class TestNewsAppIntegration(unittest.TestCase):
         news_filter.filter_news()
         filtered_news = news_filter.news_list.get(0, tk.END)
         self.assertTrue(any("Cybersecurity" in item for item in filtered_news))
-        # Add more assertions to check if the filtered content matches the keyword
 
     # Test opening links  
     @patch('webbrowser.open')
