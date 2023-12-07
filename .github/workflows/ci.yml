@@ -21,7 +21,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install feedparser
-          pip install tk
+          pip install xvfbwrapper
 
-      - name: Run Python script
-        run: python widget_test.py
+      - name: Start xvfb
+        run: |
+          sudo Xvfb :99 -ac -screen 0 1024x768x8 &
+          export DISPLAY=:99
+
+      - name: Run Python script with xvfb
+        run: xvfb-run -a python widget_test.py

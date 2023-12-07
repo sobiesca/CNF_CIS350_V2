@@ -1,4 +1,0 @@
-pip install feedparser
-pip install webbrowser
-pip install tk
-pip install unittest
